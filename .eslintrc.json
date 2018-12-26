@@ -1,0 +1,7 @@
+{
+    "extends": ["fullstack", "prettier", "prettier/react"],
+    "parser": "babel-eslint",
+    "rules": {
+    }
+  }
+  
