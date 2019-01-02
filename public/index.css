@@ -1,4 +1,37 @@
+/* All devices and Mobile */
 * {
-    box-sizing: border-box;
-    background: red;
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  color: #2e3849;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #414a59;
+  line-height: 1.5em;
+}
+
+.container {
+  padding: 10px;
+  background: #dbe1eb;
+  min-height: 100vh;
+  padding-top: 75px;
+}
+
+.title-container {
+  text-align: center;
+}
+
+/* iPad/Tablet */
+
+
+/* Destop */
+
+
