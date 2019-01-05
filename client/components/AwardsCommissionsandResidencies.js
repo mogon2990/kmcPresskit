@@ -7,6 +7,7 @@ function AwardsCommissionsandResidencies(props) {
             <div className='title-container'>
                 <h2>Awards, Commissions, and Residencies</h2>
             </div>
+            <div className='seperator'></div>
             <h3>2018</h3>
             <ul>
                 <li>NY Dance and Performance Juried “Bessie” Award</li>

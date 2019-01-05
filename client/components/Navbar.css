@@ -37,12 +37,36 @@
   min-height: 100vh;
 }
 
+/* The following 4 selectors handle the menu animation */
+.nav-links-container-enter {
+  opacity: 0.01;
+  transform: translateX(-50%)
+}
+
+.nav-links-container-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 100ms ease-out;
+}
+
+.nav-links-container-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.nav-links-container-exit-active {
+  opacity: 0.01;
+  transform: translateX(-50%);
+  transition: all 100ms ease-out;
+}
+/* end */
+
 .nav-link {
   font-family: 'Lato', sans-serif;
   color: #dbe1eb;
   text-decoration: none;
-  font-size: 1.3em;
-  padding: 9px;
+  font-size: 1.2em;
+  padding-top: 25px;
 }
 
 .nav-link.active {

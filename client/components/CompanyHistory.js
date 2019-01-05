@@ -7,6 +7,7 @@ function CompanyHistory(props) {
             <div className='title-container'>
                 <h2>Company History</h2>
             </div>
+            <div className='seperator'></div>
             <div className='img-container'>
                 <img srcSet="https://s3.amazonaws.com/kmc-presskit-photos/CH-S.jpg 350w,
                     https://s3.amazonaws.com/kmc-presskit-photos/CH-M.jpg 600w,

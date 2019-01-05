@@ -7,6 +7,7 @@ function PastEngagements(props) {
             <div className='title-container'>
                 <h2>Past Engagements</h2>
             </div>
+            <div className='seperator'></div>
             <div className='img-container'>
                 <img srcSet="https://s3.amazonaws.com/kmc-presskit-photos/PE-S.jpg 350w,
                     https://s3.amazonaws.com/kmc-presskit-photos/PE-M.jpg 600w,
@@ -15,7 +16,7 @@ function PastEngagements(props) {
                             (max-width: 800px) 90vw,
                             90vw"
                     src="https://s3.amazonaws.com/kmc-presskit-photos/PE-L.jpg" alt="Five dancers in Roam by Kyle Marshall Choreography at Jacob's Pillow" />
-                <p className='photo-credit'>Photo: Hayim Heron courtesy of Jacob's Pillow</p>
+                <p className='photo-credit'>Photo: Hayim Heron courtesy of Jacob's Pillow Dance</p>
             </div>
             <h3>2018</h3>
             <ul>
@@ -79,7 +80,7 @@ function PastEngagements(props) {
                     sizes="(max-width: 599px) 90vw,
                             (max-width: 800px) 90vw,
                             90vw"
-                    src="https://s3.amazonaws.com/kmc-presskit-photos/PE2-L.jpg" alt="Three dancers in Colored by Kyle Marshall Choreography at Jacob's Pillow" />
+                    src="https://s3.amazonaws.com/kmc-presskit-photos/PE2-L.jpg" alt="Three dancers in Colored by Kyle Marshall Choreography" />
                 <p className='photo-credit'>Photo: David Gonsier</p>
             </div>
         </div>

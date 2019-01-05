@@ -1,4 +1,27 @@
-/* div {
-    height: 100px;
-    background: yellow;
-} */
+/* All devices and mobile */
+
+.connect-container {
+    text-align: center;
+}
+
+.connect-social-links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 60vw;
+    margin: 0 auto;
+
+}
+
+.connect-social-links a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #2e3849;
+}
+
+.connect-icon {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+  }

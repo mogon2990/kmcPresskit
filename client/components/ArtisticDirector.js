@@ -7,6 +7,7 @@ function ArtisticDirector(props) {
             <div className='title-container'>
                 <h2>Artistic Director</h2>
             </div>
+            <div className='seperator'></div>
             <div className='img-container'>
                 <img srcSet="https://s3.amazonaws.com/kmc-presskit-photos/AD-S.jpg 234w,
                     https://s3.amazonaws.com/kmc-presskit-photos/AD-M.jpg 402w,
