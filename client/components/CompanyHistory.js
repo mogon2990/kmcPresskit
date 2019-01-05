@@ -11,10 +11,11 @@ function CompanyHistory(props) {
                 <img srcSet="https://s3.amazonaws.com/kmc-presskit-photos/CH-S.jpg 350w,
                     https://s3.amazonaws.com/kmc-presskit-photos/CH-M.jpg 600w,
                     https://s3.amazonaws.com/kmc-presskit-photos/CH-L.jpg 1000w"
-                    sizes="(max-width: 599px) 95vw,
-                            (max-width: 800px) 95vw,
-                            95vw"
-                    src="https://s3.amazonaws.com/kmc-presskit-photos/CH-L.jpg" alt="Elva dressed as a fairy" />
+                    sizes="(max-width: 599px) 90vw,
+                            (max-width: 800px) 90vw,
+                            90vw"
+                    src="https://s3.amazonaws.com/kmc-presskit-photos/CH-L.jpg" alt="Three dancers in Colored by Kyle Marshall Choreography" />
+                <p className='photo-credit'>Photo: David Gonsier</p>
             </div>
             <p>Winner of the 2018 NY Dance and Performance Juried “Bessie” Award and named “New to Watch” by Dance Europe Magazine in 2017, Kyle Marshall Choreography (KMC) is a dance company that sees the moving body as a container of history, an igniter of social reform and a site of celebration. KMC believes the creation, sharing, and teaching of dance is a way to deepen our knowledge of who we are as individuals and how we develop relationships and ultimately societies.</p>
             <p>Since 2014, Kyle Marshall Choreography has performed at venues across the United States including Jacob’s Pillow Dance Festival, Joe’s Pub at the Public Theater, Actors Fund Arts Center, New Jersey Performing Arts Center, Harlem Stage, Judson Church, NYC Summerstage, “Dance on the Lawn” Montclair Dance Festival, Roulette, Jersey City Theater Center, Wassaic Arts Project and Conduit Dance in Portland, OR.</p>

@@ -1,3 +1,5 @@
+/* All devices and Mobile */
+
 .navbar-container {
   z-index: 1;
   position: fixed;
@@ -8,12 +10,11 @@
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
-  /* background: rgba(46, 56, 73, 0.28); */
   background: rgba(46, 56, 73, 0.95);
   /* background: #2e3849; */
   /* background: #bfa09a; */
   min-width: 100vw;
-  /* box-shadow: 0px 2px 2px #c3cdde; */
+  box-shadow: 0px 2px 2px rgba(46, 56, 73, 0.5);
 }
 
 .sm-nav-title {
@@ -47,4 +48,12 @@
 .nav-link.active {
   border-bottom: 1px solid #e1ca96;
   color: #e1ca96;
+}
+
+/* iPad/Tablet */
+
+
+/* Destop */
+@media (min-width: 801px) {
+
 }

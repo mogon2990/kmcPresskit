@@ -24,8 +24,7 @@ export default class Navbar extends Component {
   }
 
   componentDidMount() {
-    console.log("in navbar", window.visualViewport)
-    window.visualViewport.width > 800 && this.setState({ isSmallScreen: false})
+    window.outerWidth > 800 && this.setState({ isSmallScreen: false})
   }
 
   toggleNavbar() {
@@ -55,15 +54,6 @@ export default class Navbar extends Component {
                                     to={info.path}
                                     key={info.path}>{info.text}</NavLink>
                   })}
-                  {/* <NavLink onClick={toggleNavbar} to='/history'>Company History</NavLink>
-                  <NavLink onClick={toggleNavbar} to='/artisticdirector'>Artistic Director</NavLink>
-                  <NavLink onClick={toggleNavbar} to='/awards'>Awards, Commissions, and Residencies</NavLink>
-                  <NavLink onClick={toggleNavbar} to='/biographies'>Company Biographies</NavLink>
-                  <NavLink onClick={toggleNavbar} to='/pastengagements'>Past Engagements</NavLink>
-                  <NavLink onClick={toggleNavbar} to='/workinprogress'>Work in Progress</NavLink>
-                  <NavLink onClick={toggleNavbar} to='/currentrepertory'>Current Repertory</NavLink>
-                  <NavLink onClick={toggleNavbar} to='/pastworks'>Past Works</NavLink>
-                  <NavLink onClick={toggleNavbar} to='/connect'>Connect</NavLink> */}
               </div>
           }
       </div>

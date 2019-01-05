@@ -19,10 +19,10 @@ p {
 }
 
 .container {
-  padding: 10px;
+  padding: 15px;
   background: #dbe1eb;
   min-height: 100vh;
-  padding-top: 75px;
+  padding-top: 70px;
 }
 
 .title-container {
@@ -31,6 +31,11 @@ p {
 
 .img-container {
   text-align: center;
+}
+
+.photo-credit {
+  font-size: .5em;
+  margin-top: 5px;
 }
 
 /* iPad/Tablet */
