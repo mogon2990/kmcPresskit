@@ -15,7 +15,7 @@ function WorkInProgress(props) {
                     https://s3.amazonaws.com/kmc-presskit-photos/WiP-L.jpg 1000w"
                     sizes="(max-width: 599px) 90vw,
                             (max-width: 800px) 70vw,
-                            90vw"
+                            50vw"
                     src="https://s3.amazonaws.com/kmc-presskit-photos/WiP-L.jpg" alt="Five dancers in Reign by Kyle Marshall Choreography" />
                 <p className='photo-credit'>Photo: Miguel Aviles</p>
             </div>

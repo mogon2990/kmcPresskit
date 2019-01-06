@@ -15,7 +15,7 @@ function CurrentRepertory(props) {
                     https://s3.amazonaws.com/kmc-presskit-photos/CR-L.jpg 1000w"
                     sizes="(max-width: 599px) 90vw,
                             (max-width: 800px) 70vw,
-                            90vw"
+                            50vw"
                     src="https://s3.amazonaws.com/kmc-presskit-photos/CR-L.jpg" alt="Three dancers in Colored by Kyle Marshall Choreography" />
                 <p className='photo-credit'>Photo: David Gonsier</p>
             </div>
@@ -36,7 +36,7 @@ function CurrentRepertory(props) {
                     https://s3.amazonaws.com/kmc-presskit-photos/CR2-L.jpg 786w"
                     sizes="(max-width: 599px) 75vw,
                             (max-width: 800px) 55vw,
-                            75vw"
+                            35vw"
                     src="https://s3.amazonaws.com/kmc-presskit-photos/CR2-L.jpg" alt="Kyle Marshall in King by Kyle Marshall Choreography" />
                 <p className='photo-credit'>Photo: Steven Speliotis</p>
             </div>

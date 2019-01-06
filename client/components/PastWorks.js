@@ -15,7 +15,7 @@ function PastWorks(props) {
                     https://s3.amazonaws.com/kmc-presskit-photos/PW-L.jpg 1000w"
                     sizes="(max-width: 599px) 90vw,
                             (max-width: 800px) 70vw,
-                            90vw"
+                            50vw"
                     src="https://s3.amazonaws.com/kmc-presskit-photos/PW-L.jpg" alt="Four dancers in Wage by Kyle Marshall Choreography" />
                 <p className='photo-credit'>Photo: David Gonsier</p>
             </div>
@@ -36,7 +36,7 @@ function PastWorks(props) {
                     https://s3.amazonaws.com/kmc-presskit-photos/PW2-L.jpg 1000w"
                     sizes="(max-width: 599px) 90vw,
                             (max-width: 800px) 70vw,
-                            90vw"
+                            50vw"
                     src="https://s3.amazonaws.com/kmc-presskit-photos/PW2-L.jpg" alt="Five dancers in Roam by Kyle Marshall Choreography at Jacob's Pillow" />
                 <p className='photo-credit'>Photo: Hayim Heron courtesy of Jacob's Pillow Dance</p>
             </div>

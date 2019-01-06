@@ -14,7 +14,7 @@ function PastEngagements(props) {
                     https://s3.amazonaws.com/kmc-presskit-photos/PE-L.jpg 1000w"
                     sizes="(max-width: 599px) 90vw,
                             (max-width: 800px) 70vw,
-                            90vw"
+                            50vw"
                     src="https://s3.amazonaws.com/kmc-presskit-photos/PE-L.jpg" alt="Five dancers in Roam by Kyle Marshall Choreography at Jacob's Pillow" />
                 <p className='photo-credit'>Photo: Hayim Heron courtesy of Jacob's Pillow Dance</p>
             </div>
@@ -81,7 +81,7 @@ function PastEngagements(props) {
                     https://s3.amazonaws.com/kmc-presskit-photos/PE2-L.jpg 1000w"
                     sizes="(max-width: 599px) 90vw,
                             (max-width: 800px) 70vw,
-                            90vw"
+                            50vw"
                     src="https://s3.amazonaws.com/kmc-presskit-photos/PE2-L.jpg" alt="Three dancers in Colored by Kyle Marshall Choreography" />
                 <p className='photo-credit'>Photo: David Gonsier</p>
             </div>

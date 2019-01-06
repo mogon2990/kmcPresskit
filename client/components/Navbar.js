@@ -54,25 +54,17 @@ export default class Navbar extends Component {
     return (
       <div className='navbar-container'>
           {isSmallScreen &&
-              <div className='sm-nav-top'>
-                  <ReactSVG
-                      svgClassName='menu-icon'
-                      src={isOpen ? './letter-x-light.svg' : './menu-light.svg'}
-                      onClick={toggleNavbar}/>
-                  <h1 className='sm-nav-title'>Kyle Marshall Choreography</h1>
-              </div>
-          }
-          {/* {isOpen &&
-              <div className='nav-links-container'  ref={node => { this.node = node }}>
-                  {PATHS.map(info => {
-                    return <NavLink className='nav-link'
-                                    activeClassName='active'
-                                    // onClick={toggleNavbar}
-                                    to={info.path}
-                                    key={info.path}>{info.text}</NavLink>
-                  })}
-              </div>
-          } */}
+          <div className={isSmallScreen ? 'sm-nav-top' : 'lg-nav-top'}>
+                <ReactSVG
+                  svgClassName='menu-icon'
+                  src={isOpen ? './letter-x-light.svg' : './menu-light.svg'}
+                  onClick={toggleNavbar}/>
+
+                  <h1 className={isSmallScreen ? 'sm-nav-title' : 'lg-nav-title'}>
+                      Kyle Marshall Choreography
+                      </h1>
+          </div>}
+          {/* <h1 className='lg-nav-title'>Kyle Marshall Choreography</h1> */}
           <CSSTransition
               in={this.state.isOpen}
               timeout={150}
@@ -81,7 +73,9 @@ export default class Navbar extends Component {
               unmountOnExit
               appear={true}
               >
+              {/* <div className='lg-navlinks-title'> */}
               <div className='nav-links-container'  ref={node => { this.node = node }}>
+              <h1 className='lg-nav-title'>Kyle Marshall Choreography</h1>
                   {PATHS.map(info => {
                     return <NavLink className='nav-link'
                                     activeClassName='active'
@@ -90,6 +84,7 @@ export default class Navbar extends Component {
                                     key={info.path}>{info.text}</NavLink>
                   })}
               </div>
+              {/* </div> */}
           </CSSTransition>
       </div>
     )

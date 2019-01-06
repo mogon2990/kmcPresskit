@@ -32,3 +32,9 @@
         max-width: 30vw;
     }
 }
+
+@media (min-width: 801px) {
+    .connect-social-links {
+        max-width: 12vw;
+    }
+}
