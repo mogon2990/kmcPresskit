@@ -13,7 +13,7 @@ function ArtisticDirector(props) {
                     https://s3.amazonaws.com/kmc-presskit-photos/AD-M.jpg 402w,
                     https://s3.amazonaws.com/kmc-presskit-photos/AD-L.jpg 669w"
                     sizes="(max-width: 599px) 75vw,
-                            (max-width: 800px) 75vw,
+                            (max-width: 800px) 55vw,
                             75vw"
                     src="https://s3.amazonaws.com/kmc-presskit-photos/AD-L.jpg" alt="Kyle Marshall, the artistic director of Kyle Marshall Choreography" />
                 <p className='photo-credit'>Photo: Norbert De La Cruz III</p>

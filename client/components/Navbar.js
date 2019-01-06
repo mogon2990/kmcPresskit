@@ -75,7 +75,7 @@ export default class Navbar extends Component {
           } */}
           <CSSTransition
               in={this.state.isOpen}
-              timeout={100}
+              timeout={150}
               classNames='nav-links-container'
               mountOnEnter
               unmountOnExit

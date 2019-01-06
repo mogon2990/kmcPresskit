@@ -8,13 +8,13 @@ function CurrentRepertory(props) {
                 <h2>Current Repertory</h2>
             </div>
             <div className='seperator'></div>
-            <h3>Colored</h3>
+            <h3 className='sub-title'>Colored</h3>
             <div className='img-container'>
                 <img srcSet="https://s3.amazonaws.com/kmc-presskit-photos/CR-S.jpg 350w,
                     https://s3.amazonaws.com/kmc-presskit-photos/CR-M.jpg 600w,
                     https://s3.amazonaws.com/kmc-presskit-photos/CR-L.jpg 1000w"
                     sizes="(max-width: 599px) 90vw,
-                            (max-width: 800px) 90vw,
+                            (max-width: 800px) 70vw,
                             90vw"
                     src="https://s3.amazonaws.com/kmc-presskit-photos/CR-L.jpg" alt="Three dancers in Colored by Kyle Marshall Choreography" />
                 <p className='photo-credit'>Photo: David Gonsier</p>
@@ -29,13 +29,13 @@ function CurrentRepertory(props) {
             <p><i>Colored premiered June, 2017 at the Actors Fund Arts Center
             in Brooklyn, NY.</i></p>
             <div className='seperator'></div>
-            <h3>King</h3>
+            <h3 className='sub-title'>King</h3>
             <div className='img-container'>
                 <img srcSet="https://s3.amazonaws.com/kmc-presskit-photos/CR2-S.jpg 275w,
                     https://s3.amazonaws.com/kmc-presskit-photos/CR2-M.jpg 471w,
                     https://s3.amazonaws.com/kmc-presskit-photos/CR2-L.jpg 786w"
                     sizes="(max-width: 599px) 75vw,
-                            (max-width: 800px) 75vw,
+                            (max-width: 800px) 55vw,
                             75vw"
                     src="https://s3.amazonaws.com/kmc-presskit-photos/CR2-L.jpg" alt="Kyle Marshall in King by Kyle Marshall Choreography" />
                 <p className='photo-credit'>Photo: Steven Speliotis</p>

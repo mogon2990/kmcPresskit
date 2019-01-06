@@ -24,4 +24,11 @@
     height: 50px;
     width: 50px;
     padding: 10px;
-  }
+}
+
+/* iPad/Tablet */
+@media (min-width: 600px) {
+    .connect-social-links {
+        max-width: 30vw;
+    }
+}

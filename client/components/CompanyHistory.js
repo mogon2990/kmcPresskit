@@ -13,7 +13,7 @@ function CompanyHistory(props) {
                     https://s3.amazonaws.com/kmc-presskit-photos/CH-M.jpg 600w,
                     https://s3.amazonaws.com/kmc-presskit-photos/CH-L.jpg 1000w"
                     sizes="(max-width: 599px) 90vw,
-                            (max-width: 800px) 90vw,
+                            (max-width: 800px) 70vw,
                             90vw"
                     src="https://s3.amazonaws.com/kmc-presskit-photos/CH-L.jpg" alt="Three dancers in Colored by Kyle Marshall Choreography" />
                 <p className='photo-credit'>Photo: David Gonsier</p>

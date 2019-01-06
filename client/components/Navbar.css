@@ -46,7 +46,7 @@
 .nav-links-container-enter-active {
   opacity: 1;
   transform: translateX(0%);
-  transition: all 100ms ease-out;
+  transition: all 150ms ease-in-out;
 }
 
 .nav-links-container-exit {
@@ -57,7 +57,7 @@
 .nav-links-container-exit-active {
   opacity: 0.01;
   transform: translateX(-50%);
-  transition: all 100ms ease-out;
+  transition: all 150ms ease-in-out;
 }
 /* end */
 
