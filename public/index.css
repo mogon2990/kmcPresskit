@@ -76,24 +76,29 @@ p, li {
 @media (min-width: 801px) {
 
   h2 {
-    font-size: 2.5em;
+    font-size: 30px;
   }
 
   h3 {
-    font-size: 2em;
+    font-size: 25px;
   }
 
   p, li {
-    font-size: 1.2em;
+    font-size: 17px;
   }
 
   .container {
-    padding-left: 450px;
-    padding-right: 300px;
+    padding-left: 30%;
+    padding-right: 15%;
+    padding-top: 50px;
   }
 
   .list-medium {
     max-width: 30vw;
+  }
+
+  .photo-credit {
+    font-size: 10px;
   }
 
 }
