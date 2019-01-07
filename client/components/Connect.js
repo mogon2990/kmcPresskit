@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import ReactSVG from 'react-svg'
+import { Arrows } from './index.js'
 import './components.css'
 
-function Connect(props) {
+const Connect = props => {
     return (
         <div className='container'>
             <div className='title-container'>
@@ -46,6 +47,7 @@ function Connect(props) {
                     src="https://s3.amazonaws.com/kmc-presskit-photos/C-L.jpg" alt="Two dancers in Colored by Kyle Marshall Choreography" />
                 <p className='photo-credit'>Photo: David Gonsier</p>
             </div>
+            <Arrows left={{show: true, path: '/pastworks'}} right={{show:false, path: ''}}      />
         </div>
     )
 }

@@ -26,6 +26,25 @@
     padding: 10px;
 }
 
+.arrow-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.arrow-icon {
+    width: 75px;
+    height: 75px;
+    margin: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 2px rgba(46, 56, 73, 0.5);
+}
+
+.arrow-icon:hover {
+    width: 80px;
+    height: 80px;
+}
+
 /* iPad/Tablet */
 @media (min-width: 600px) {
     .connect-social-links {
@@ -33,6 +52,7 @@
     }
 }
 
+/* Laptop/Desktop */
 @media (min-width: 801px) {
     .connect-social-links {
         max-width: 12vw;

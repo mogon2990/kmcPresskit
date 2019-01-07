@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-// import './components.css'
+import { Arrows } from './index.js'
 
-function PastWorks(props) {
+const PastWorks = props => {
     return (
         <div className='container'>
             <div className='title-container'>
@@ -77,7 +77,7 @@ function PastWorks(props) {
               <p><strong>Costumes:</strong> Meagan Woods</p>
             </div>
             <p><i>Penny the Proletariat premiered March, 2014 at The Landmark Loew’s Theater.</i></p>
-
+            <Arrows left={{show: true, path: '/currentrepertory'}} right={{show:true, path:       '/connect'}} />
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-// import './components.css'
+import { Arrows } from './index.js'
 
-function PastEngagements(props) {
+const PastEngagements = props => {
     return (
         <div className='container'>
             <div className='title-container'>
@@ -85,6 +85,7 @@ function PastEngagements(props) {
                     src="https://s3.amazonaws.com/kmc-presskit-photos/PE2-L.jpg" alt="Three dancers in Colored by Kyle Marshall Choreography" />
                 <p className='photo-credit'>Photo: David Gonsier</p>
             </div>
+            <Arrows left={{show: true, path: '/biographies'}} right={{show:true, path:       '/workinprogress'}} />
         </div>
     )
 }

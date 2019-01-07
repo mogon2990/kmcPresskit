@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-// import './components.css'
+import { Arrows } from './index.js'
 
-function AwardsCommissionsandResidencies(props) {
+const AwardsCommissionsandResidencies = props => {
     return (
         <div className='container'>
             <div className='title-container'>
@@ -29,6 +29,7 @@ function AwardsCommissionsandResidencies(props) {
                     <li>EMoves: Harlem Stage commission</li>
                 </ul>
             </div>
+            <Arrows left={{show: true, path: '/artisticdirector'}} right={{show:true, path:       '/biographies'}} />
         </div>
     )
 }

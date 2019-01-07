@@ -8,4 +8,5 @@ export { default as CurrentRepertory } from './CurrentRepertory'
 export { default as PastWorks } from './PastWorks'
 export { default as Connect } from './Connect'
 export { default as Navbar } from './Navbar'
+export { default as Arrows } from './Arrows'
 

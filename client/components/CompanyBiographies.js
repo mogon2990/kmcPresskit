@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-// import './components.css'
+import { Arrows } from './index.js'
 
-function CompanyBiographies(props) {
+const CompanyBiographies = props => {
     return (
         <div className='container'>
             <div className='title-container'>
@@ -25,6 +25,7 @@ function CompanyBiographies(props) {
             <div className='seperator'></div>
             <h3>Nicholas Sciscione</h3>
             <p>was nominated for a 2017 NY “Bessie” Performer Award and was born and raised in Elizabeth, New Jersey. He graduated magna cum laude with a BFA in Dance from Mason Gross School of the Arts at Rutgers University. He has performed works by Benoit-Swan Pouffer, Randy James, Xiao-xiong Zhang, Danielle Agami, and Ohad Naharin. He has worked with Joshua Beamish, Nimbus Dance Works and was a founding member of 10 Hairy Legs. Sciscione joined Stephen Petronio Company in 2011 and has been the assistant to the director since 2016.</p>
+            <Arrows left={{show: true, path: '/awards'}} right={{show:true, path:       '/pastengagements'}} />
         </div>
     )
 }

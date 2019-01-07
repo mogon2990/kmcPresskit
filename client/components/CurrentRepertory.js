@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-// import './components.css'
+import { Arrows } from './index.js'
 
-function CurrentRepertory(props) {
+const CurrentRepertory = props => {
     return (
         <div className='container'>
             <div className='title-container'>
@@ -48,6 +48,7 @@ function CurrentRepertory(props) {
                 <p><strong>Runtime:</strong> 8 minutes</p>
             </div>
             <p><i>King was commissioned and premiered at Harlem Stage for an event commemorate the 50th anniversary of MLK’s assassination.</i></p>
+            <Arrows left={{show: true, path: '/workinprogress'}} right={{show:true, path:       '/pastworks'}} />
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-// import './components.css'
+import { Arrows } from './index.js'
 
-function WorkInProgress(props) {
+const WorkInProgress = props => {
     return (
         <div className='container'>
             <div className='title-container'>
@@ -26,6 +26,7 @@ function WorkInProgress(props) {
                 <p><strong>Text:</strong> Holy Bible</p>
                 <p><strong>Sound Design:</strong> Cal Fish</p>
             </div>
+            <Arrows left={{show: true, path: '/pastengagements'}} right={{show:true, path:       '/currentrepertory'}} />
         </div>
     )
 }

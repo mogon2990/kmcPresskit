@@ -59,7 +59,6 @@ export default class Navbar extends Component {
                       svgClassName='menu-icon'
                       src={isOpen ? './letter-x-light.svg' : './menu-light.svg'}
                       onClick={toggleNavbar}/>
-
                       <h1 className='sm-nav-title'>Kyle Marshall Choreography</h1>
               </div>
           }
@@ -78,7 +77,7 @@ export default class Navbar extends Component {
                   {PATHS.map(info => {
                     return <NavLink className='nav-link'
                                     activeClassName='active'
-                                    // onClick={toggleNavbar}
+                                    onClick={toggleNavbar}
                                     to={info.path}
                                     key={info.path}>{info.text}</NavLink>
                   })}
