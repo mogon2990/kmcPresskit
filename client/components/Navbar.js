@@ -41,6 +41,7 @@ export default class Navbar extends Component {
   }
 
   handleOutsideClick(e) {
+    e.preventDefault()
     if (this.node.contains(e.target)) {
       return
     }
