@@ -20,6 +20,10 @@
   color: #dbe1eb;
 }
 
+.lg-nav-title {
+  display: none;
+}
+
 .menu-icon {
   height: 50px;
   width: 50px;
@@ -84,6 +88,10 @@
 /* Laptop/Destop */
 @media (min-width: 801px) {
 
+  .sm-nav-top {
+    display: none;
+  }
+
   .nav-links-container {
     width: 25vw;
     max-width: 275px;
@@ -91,6 +99,7 @@
   }
 
   .lg-nav-title {
+    display: block;
     color: #dbe1eb;
     padding-bottom: 20px;
     border-bottom: 1px solid #dbe1eb;
