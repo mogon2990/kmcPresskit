@@ -1,13 +1,20 @@
 {
   "name": "kmcpresskit",
   "version": "1.0.0",
-  "description": "",
+  "description": "An online press kit for Kyle Marshall Choreography",
   "main": "index.html",
   "dependencies": {
+    "clean-webpack-plugin": "^1.0.0",
     "eslint-config-prettier": "^3.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "react-svg": "^7.2.2",
+    "react-transition-group": "^2.5.2",
+    "svg-inline-loader": "^0.8.0",
+    "webpack-merge": "^4.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -22,7 +29,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server -w"
+    "start": "webpack-dev-server -w --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",

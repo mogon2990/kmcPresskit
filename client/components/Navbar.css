@@ -1,0 +1,114 @@
+/* All devices and Mobile */
+
+.navbar-container {
+  z-index: 1;
+  position: fixed;
+}
+
+.sm-nav-top {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgba(46, 56, 73, 0.95);
+  min-width: 100vw;
+  box-shadow: 0px 2px 2px rgba(46, 56, 73, 0.5);
+}
+
+.sm-nav-title {
+  font-size: 1.4em;
+  color: #dbe1eb;
+}
+
+.lg-nav-title {
+  display: none;
+}
+
+.menu-icon {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+}
+
+.nav-links-container {
+  padding: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  background: rgba(46, 56, 73, 0.95);
+  max-width: 55vw;
+  min-height: 100vh;
+}
+
+/* The following 4 selectors handle the menu animation */
+.nav-links-container-enter {
+  opacity: 0.01;
+  transform: translateX(-50%)
+}
+
+.nav-links-container-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 150ms ease-in-out;
+}
+
+.nav-links-container-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.nav-links-container-exit-active {
+  opacity: 0.01;
+  transform: translateX(-50%);
+  transition: all 150ms ease-in-out;
+}
+/* end */
+
+.nav-link {
+  font-family: 'Lato', sans-serif;
+  color: #dbe1eb;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding-top: 25px;
+}
+
+.nav-link.active {
+  border-bottom: 1px solid #e1ca96;
+  color: #e1ca96;
+}
+
+/* iPad/Tablet */
+@media (min-width: 600px) {
+
+  .nav-links-container {
+    max-width: 35vw;
+  }
+
+}
+
+/* Laptop/Destop */
+@media (min-width: 801px) {
+
+  .sm-nav-top {
+    display: none;
+  }
+
+  .nav-links-container {
+    width: 25vw;
+    max-width: 275px;
+    box-shadow: 2px 0px 2px rgba(46, 56, 73, 0.5);
+  }
+
+  .lg-nav-title {
+    display: block;
+    color: #dbe1eb;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dbe1eb;
+  }
+
+  .nav-link {
+    font-size: 19px;
+    padding-top: 30px;
+
+  }
+
+}

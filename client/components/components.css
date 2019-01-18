@@ -1,3 +1,60 @@
-/* div {
-    background: yellow;
-} */
+/* All devices and mobile */
+
+.connect-container {
+    text-align: center;
+}
+
+.connect-social-links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 60vw;
+    margin: 0 auto;
+
+}
+
+.connect-social-links a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #2e3849;
+}
+
+.connect-icon {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+.arrow-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.arrow-icon {
+    width: 75px;
+    height: 75px;
+    margin: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 2px rgba(46, 56, 73, 0.5);
+}
+
+.arrow-icon:hover {
+    width: 80px;
+    height: 80px;
+}
+
+/* iPad/Tablet */
+@media (min-width: 600px) {
+    .connect-social-links {
+        max-width: 30vw;
+    }
+}
+
+/* Laptop/Desktop */
+@media (min-width: 801px) {
+    .connect-social-links {
+        max-width: 12vw;
+    }
+}

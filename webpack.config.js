@@ -3,13 +3,15 @@ module.exports = {
   mode: 'development',
   output: {
     path: __dirname + "/public",
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/',
   },
   devtool: 'source-maps',
   devServer: {
     contentBase: __dirname + "/public",
     compress: true,
-    port: 9000
+    port: 9000,
+    historyApiFallback: true,
   },
   module: {
     rules: [

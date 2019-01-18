@@ -1,7 +1,17 @@
 import React, { Component } from 'react'
-import { CompanyHistory } from './components'
+import { withRouter, Route, Switch } from 'react-router-dom'
+import { Navbar,
+         CompanyHistory,
+         ArtisticDirector,
+         AwardsCommissionsandResidencies,
+         CompanyBiographies,
+         PastEngagements,
+         WorkInProgress,
+         CurrentRepertory,
+         PastWorks,
+         Connect } from './components'
 
-export default class Main extends Component {
+class Main extends Component {
     constructor() {
         super()
         this.state = {}
@@ -10,9 +20,22 @@ export default class Main extends Component {
     render() {
         return (
             <div>
-                <p>Main</p>
-                <CompanyHistory />
+                <Navbar />
+                <Switch>
+                    <Route path="/history" component={CompanyHistory} />
+                    <Route path='/artisticdirector' component={ArtisticDirector} />
+                    <Route path='/awards' component={AwardsCommissionsandResidencies} />
+                    <Route path='/biographies' component={CompanyBiographies} />
+                    <Route path='/pastengagements' component={PastEngagements} />
+                    <Route path='/workinprogress' component={WorkInProgress} />
+                    <Route path='/currentrepertory' component={CurrentRepertory} />
+                    <Route path='/pastworks' component={PastWorks} />
+                    <Route path='/connect' component={Connect} />
+                    <Route component={CompanyHistory} />
+                </Switch>
             </div>
         )
     }
 }
+
+export default withRouter(Main)

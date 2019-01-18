@@ -1,4 +1,105 @@
+/* All devices and Mobile */
 * {
-    box-sizing: border-box;
-    background: red;
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  color: #2e3849;
+}
+
+p, li {
+  font-family: 'Montserrat', sans-serif;
+  color: #414a59;
+  line-height: 1.5em;
+}
+
+.container {
+  padding: 15px;
+  background: #dbe1eb;
+  min-height: 100vh;
+  padding-top: 70px;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.sub-title {
+  text-align: center;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.photo-credit {
+  font-size: .5em;
+  margin-top: 5px;
+}
+
+.dance-credits {
+  background: #e9d8b2;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.dance-credits p {
+  margin: 5px;
+}
+
+.seperator {
+  border-top: 2px solid #bfa09a;
+  max-width: 30vw;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+/* iPad/Tablet */
+@media (min-width: 600px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .list-medium {
+    max-width: 50vw;
+    margin: 0 auto;
+  }
+}
+
+/* Laptop/Destop */
+@media (min-width: 801px) {
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  p, li {
+    font-size: 17px;
+  }
+
+  .container {
+    padding-left: 30%;
+    padding-right: 15%;
+    padding-top: 50px;
+  }
+
+  .list-medium {
+    max-width: 30vw;
+  }
+
+  .photo-credit {
+    font-size: 10px;
+  }
+
+}
+
