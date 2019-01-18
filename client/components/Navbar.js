@@ -27,7 +27,7 @@ export default class Navbar extends Component {
 
     componentDidMount() {
         window.outerWidth > 800 && this.setState({ isOpen: true })
-        window.addEventListener("resize", this.updateDimensions)
+        window.addEventListener("resize", this.handleResize)
     }
 
     handleResize() {
@@ -48,7 +48,7 @@ export default class Navbar extends Component {
         if (this.node.contains(e.target)) {
           return
         }
-          this.toggleNavbar()
+        this.toggleNavbar()
     }
 
     render() {
