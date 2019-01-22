@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 import { NavLink } from 'react-router-dom'
 import { CSSTransition } from 'react-transition-group'
 import ReactSVG from 'react-svg'
@@ -14,7 +14,7 @@ const PATHS = [{path: '/history', text: 'Company History'},
                {path: '/pastworks', text: 'Past Works'},
                {path: '/connect', text: 'Connect'}]
 
-export default class Navbar extends Component {
+export default class Navbar extends PureComponent {
     constructor() {
         super()
         this.state = {
