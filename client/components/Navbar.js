@@ -35,6 +35,9 @@ export default class Navbar extends PureComponent {
     }
 
     toggleNavbar() {
+        if (window.innerWidth > 801) {
+            return
+        }
         if (this.state.isOpen) {
           document.removeEventListener('click', this.handleOutsideClick)
         } else {
