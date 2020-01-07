@@ -1,7 +1,7 @@
 export { default as CompanyHistory } from './CompanyHistory'
 export { default as ArtisticDirector } from './ArtisticDirector'
 export { default as AwardsCommissionsandResidencies } from './AwardsCommissionsandResidencies'
-export { default as CompanyBiographies } from './CompanyBiographies'
+export { default as CollaboratorBiographies } from './CollaboratorBiographies'
 export { default as PastEngagements } from './PastEngagements'
 export { default as WorkInProgress } from './WorkInProgress'
 export { default as CurrentRepertory } from './CurrentRepertory'
