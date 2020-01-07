@@ -4,7 +4,7 @@ import { Navbar,
          CompanyHistory,
          ArtisticDirector,
          AwardsCommissionsandResidencies,
-         CompanyBiographies,
+         CollaboratorBiographies,
          PastEngagements,
          WorkInProgress,
          CurrentRepertory,
@@ -25,7 +25,7 @@ class Main extends Component {
                     <Route path="/history" component={CompanyHistory} />
                     <Route path='/artisticdirector' component={ArtisticDirector} />
                     <Route path='/awards' component={AwardsCommissionsandResidencies} />
-                    <Route path='/biographies' component={CompanyBiographies} />
+                    <Route path='/biographies' component={CollaboratorBiographies} />
                     <Route path='/pastengagements' component={PastEngagements} />
                     <Route path='/workinprogress' component={WorkInProgress} />
                     <Route path='/currentrepertory' component={CurrentRepertory} />

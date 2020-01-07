@@ -7,7 +7,7 @@ import './Navbar.css'
 const PATHS = [{path: '/history', text: 'Company History'},
                {path:'/artisticdirector', text: 'Artistic Director'},
                {path: '/awards', text: 'Awards, Commissions, and Residencies'},
-               {path: '/biographies', text: 'Company Biographies'},
+               {path: '/biographies', text: 'Collaborator Biographies'},
                {path: '/pastengagements', text: 'Past Engagements'},
                {path: '/workinprogress', text: 'Work in Progress'},
                {path: '/currentrepertory', text: 'Current Repertory'},
