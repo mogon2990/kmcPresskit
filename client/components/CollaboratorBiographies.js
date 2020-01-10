@@ -19,7 +19,14 @@ const CollaboratorBiographies = props => {
             <div className='seperator'></div>
             <h3>Myssi Robinson</h3>
             <p>is an artist from Richmond, VA.  Home is currently Jersey City and the movement worlds of David Dorfman Dance, Kyle Marshall Choreography, and the ColemanCollective. Since graduating from Mason Gross School of the Arts at Rutgers University with a BFA in Dance, Myssi has maintained a visual art practice of marking, design, and simple construction.  Her work has been presented by Mana Contemporary, the Jersey City Theater Center, the Gallery at Nimbus Dance Works, BAAD! and the Bronx Museum of the Arts. Myssi's next interdisciplinary solo show will live at Smush Gallery in March 2020. In all the working, empathy is queen.</p>
-            <Arrows left={{show: true, path: '/awards'}} right={{show:true, path:       '/pastengagements'}} />
+            <div className='seperator'></div>
+            <div className='title-container'>
+                <h2>Production Collaborators</h2>
+            </div>
+            <div className='seperator'></div>
+            <h3>Cal Fish (sound design and sound instrument construction)</h3>
+            <p>is a multi-disciplinary artist from Sea Cliff NY currently based in Brooklyn. They graduated from Bard College with a joint degree in studio art and music. Since graduation they have shared interactive works and multi-sensory performances at galleries, diy venues, festivals, community art spaces, and public parks, including; CANADA Gallery, Governor’s Island, Flux Factory, and Peace Park. Sound as a medium for communication and user-friendly kinesthetic technologies have remained at the center of Cal’s work. They have toured extensively with various music and art projects in the U.S. and have also performed in Europe and Canada. Cal currently hosts a radio show called Anthroapology, organizes interdisciplinary art events, makes clothes out of their studio at the Living Gallery, and works in collaboration with many amazingly inspiring artists and organizers. IG:@cal._.fish</p>
+            <Arrows left={{show: true, path: '/artisticdirector'}} right={{show:true, path: '/awards'}} />
         </div>
     )
 }

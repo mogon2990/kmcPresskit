@@ -6,11 +6,11 @@ import './Navbar.css'
 
 const PATHS = [{path: '/history', text: 'Company History'},
                {path:'/artisticdirector', text: 'Artistic Director'},
-               {path: '/awards', text: 'Awards, Commissions, and Residencies'},
                {path: '/biographies', text: 'Collaborator Biographies'},
+               {path: '/awards', text: 'Awards, Commissions, and Residencies'},
                {path: '/pastengagements', text: 'Past Engagements'},
-               {path: '/workinprogress', text: 'Work in Progress'},
                {path: '/currentrepertory', text: 'Current Repertory'},
+               {path: '/workinprogress', text: 'Work in Progress'},
                {path: '/pastworks', text: 'Past Works'},
                {path: '/connect', text: 'Connect'}]
 

@@ -19,14 +19,14 @@ const WorkInProgress = props => {
                     src="https://s3.amazonaws.com/kmc-presskit-photos/WiP-L.jpg" alt="Five dancers in Reign by Kyle Marshall Choreography" />
                 <p className='photo-credit'>Photo: Miguel Aviles</p>
             </div>
-            <p>Premiering in summer 2020, <i>Reign</i> will be an evening length work shrouded in Christianity’s influence on the body and on American culture. Using text from Holy Bible as impetus, dancers Oluwadamilare Ayroinde, Bria Bacon, Miriam Gabriel, Kyle Marshall and Myssi Robinson, along with sound designer Cal Fish, are in a process to understand how words and belief have the power to influence bodies, communities, and nations. With this dance, we seek to undo mainstream white supremist depictions of celestial beings, embody old and new ways of uplifting the spirit, and release guilt from our queer bodies. <i>Reign</i> is interested in how a theater can become a sanctuary, an audience a congregation, as we create a space for reflection, truth, and joy in an age of unbelief.</p>
+            <p>Concluding the exploration of Christianity, <i>Reign</i> is an evening length work interested in how a theater can become a sanctuary and an audience a congregation, as we create a space for reflection, truth, and joy in an unbelievable age. <i>Reign</i> will premiere at The Shed August 3-6th 2020.</p>
             <div className='dance-credits'>
                 <p><strong>Choreography:</strong> Kyle Marshall</p>
                 <p><strong>Performers:</strong> Oluwadamilare "Dare" Ayorinde, Bria Bacon, Miriam Gabriel, Kyle Marshall and Myssi Robinson</p>
                 <p><strong>Text:</strong> Holy Bible</p>
                 <p><strong>Sound Design:</strong> Cal Fish</p>
             </div>
-            <Arrows left={{show: true, path: '/pastengagements'}} right={{show:true, path:       '/currentrepertory'}} />
+            <Arrows left={{show: true, path: '/currentrepertory'}} right={{show:true, path: '/pastworks'}} />
         </div>
     )
 }

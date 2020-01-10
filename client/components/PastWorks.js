@@ -77,7 +77,7 @@ const PastWorks = props => {
               <p><strong>Costumes:</strong> Meagan Woods</p>
             </div>
             <p><i>Penny the Proletariat premiered March, 2014 at The Landmark Loew’s Theater.</i></p>
-            <Arrows left={{show: true, path: '/currentrepertory'}} right={{show:true, path:       '/connect'}} />
+            <Arrows left={{show: true, path: '/workinprogress'}} right={{show:true, path:       '/connect'}} />
         </div>
     )
 }
