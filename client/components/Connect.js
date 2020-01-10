@@ -12,7 +12,7 @@ const Connect = props => {
             <div className='seperator'></div>
             <div className='connect-container'>
               <p>Kyle Marshall</p>
-              <p>kyleg.marshall@gmail.com</p>
+              <p>kyle@kmchoreo.com</p>
               <p>(732) 207-1578</p>
               <div className='seperator'></div>
               <p>87 Palisade Ave. apt. 2</p>

@@ -19,6 +19,25 @@ const PastEngagements = props => {
                 <p className='photo-credit'>Photo: Hayim Heron courtesy of Jacob's Pillow Dance</p>
             </div>
             <div className='list-medium'>
+            <h3>2019</h3>
+                <ul>
+                    <li>New York Live Arts, Live Artery: NYC </li>
+                    <li>DanceNow Silo Residency: PA</li>
+                    <li>BRIC, Golden Motors (work in progress) - a music theater work in development: Brooklyn</li>
+                    <li>Raritian Valley Community College, Social Justice Concert: NJ</li>
+                    <li>MANA Contemporary, residency showing: Jersey City, NJ</li>
+                    <li>Bickford Theater, residency showing: Morristown, NJ</li>
+                    <li>American Dance Festival (ADF), movement workshop: NC</li>
+                    <li>Hudson Hall, movement workshop: Hudson, NY</li>
+                    <li>Jacob's Pillow Inside/Out: MA</li>
+                    <li>Electronic Arts Institute/ Alfred University Residency: Alfred, NY</li>
+                    <li>Bethany Arts Community Residency: Ossining, NY</li>
+                    <li>Isabella Stewart Gardener Museum, Weekend Concert Series: MA</li>
+                    <li>DANCENOW residency: Hellertown, PA</li>
+                    <li>Hobart and William Smith College, performance: Geneva, NY</li>
+                    <li>92nd St Y, Embodying Repertory masterclass: NYC</li>
+                    <li>Brooklyn Academy of Music, Next Wave Festival: Brooklyn</li>
+                </ul>
                 <h3>2018</h3>
                 <ul>
                     <li>100 Grand, showing: NYC</li>
@@ -85,7 +104,7 @@ const PastEngagements = props => {
                     src="https://s3.amazonaws.com/kmc-presskit-photos/PE2-L.jpg" alt="Three dancers in Colored by Kyle Marshall Choreography" />
                 <p className='photo-credit'>Photo: David Gonsier</p>
             </div>
-            <Arrows left={{show: true, path: '/biographies'}} right={{show:true, path:       '/workinprogress'}} />
+            <Arrows left={{show: true, path: '/awards'}} right={{show:true, path:       '/currentrepertory'}} />
         </div>
     )
 }

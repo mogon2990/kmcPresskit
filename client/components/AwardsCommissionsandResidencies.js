@@ -9,6 +9,13 @@ const AwardsCommissionsandResidencies = props => {
             </div>
             <div className='seperator'></div>
             <div className='list-medium'>
+                <h3>2019</h3>
+                <ul>
+                    <li>Marlin Miller Dance Residency Program and Integrated Electronic Arts at Alfred University Bethany Arts Community</li>
+                    <li>The Harkness Foundation for Dance Grant </li>
+                    <li>MANA Contemporary Performance Residency Program</li>
+                    <li>92nd St Y Artist-in-Residence</li>
+                </ul>
                 <h3>2018</h3>
                 <ul>
                     <li>NY Dance and Performance Juried “Bessie” Award</li>
@@ -29,7 +36,7 @@ const AwardsCommissionsandResidencies = props => {
                     <li>EMoves: Harlem Stage commission</li>
                 </ul>
             </div>
-            <Arrows left={{show: true, path: '/artisticdirector'}} right={{show:true, path:       '/biographies'}} />
+            <Arrows left={{show: true, path: '/biographies'}} right={{show:true, path: '/pastengagements'}} />
         </div>
     )
 }
